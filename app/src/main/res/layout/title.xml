@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_titlebar"
+    android:layout_width="match_parent"
+    android:layout_height="65dp"
+    android:background="#1C213F">
+
+    <TextView
+        android:id="@+id/text_title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:ellipsize="marquee"
+        android:gravity="center_horizontal|center"
+        android:singleLine="true"
+        android:text="个人助理"
+        android:textColor="#ffffffff"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/button_menu"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@mipmap/ic_menu"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="14dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/button_edit"
+        android:layout_width="33dp"
+        android:layout_height="33dp"
+        android:background="@mipmap/ic_plus"
+        android:drawablePadding="10dp"
+        android:ellipsize="end"
+        android:onClick="onClick"
+        android:textColor="#ffffffff"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="13dp"
+        android:layout_alignBaseline="@+id/text_title"
+        android:layout_alignBottom="@+id/text_title"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

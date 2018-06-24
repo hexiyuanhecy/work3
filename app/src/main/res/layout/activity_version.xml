@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_version"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.closetome.work3.version">
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="版本信息"
+        android:gravity="center"
+        android:layout_marginTop="60dp"
+        android:textColor="#363636"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="个人助理"
+        android:layout_below="@+id/header"
+        android:gravity="center"
+        android:layout_marginTop="100dp"
+        android:textColor="#363636"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/version"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="V1.0"
+        android:layout_below="@+id/info"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:textColor="#363636"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:layout_alignParentBottom="true"
+        android:id="@+id/mtinfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CopyRight@2015335800071-15数字媒体技术1班何茜媛"
+        android:textColor="#363636"
+        android:textSize="15sp"/>
+
+</RelativeLayout>
